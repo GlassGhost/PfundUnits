@@ -1,0 +1,69 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bettin()]{Horst1}
+Horst Bettin.
+\newblock How the avogadro constant was measured for the last time.
+\newblock URL
+  \url{https://q-more.chemeurope.com/q-more-articles/287/how-the-avogadro-constant-was-measured-for-the-last-time.html}.
+
+\bibitem[dePodesta et~al.(2013)dePodesta, Underwood, Sutton, Morantz, Harris,
+  Mark, Stuart, Vargha, and Machin]{Podesta_2013}
+Michael dePodesta, Robin Underwood, Gavin Sutton, Paul Morantz, Peter Harris,
+  Darren~F Mark, Finlay~M Stuart, Gergely Vargha, and Graham Machin.
+\newblock A low-uncertainty measurement of the boltzmann constant.
+\newblock \emph{Metrologia}, 50\penalty0 (4):\penalty0 354--376, jul 2013.
+\newblock \doi{10.1088/0026-1394/50/4/354}.
+\newblock URL \url{https://doi.org/10.1088/0026-1394/50/4/354}.
+
+\bibitem[Feynman(1985)]{feynman1985qed}
+Richard Feynman.
+\newblock \emph{QED : the strange theory of light and matter}.
+\newblock Princeton University Press, Princeton, N.J, 1985.
+\newblock ISBN 978-0-691-08388-9.
+
+\bibitem[SI(1968)]{CGPM13}
+SI.
+\newblock \emph{CGPM13 CGPM : Comptes rendus de la 13e réunion (1968)}.
+\newblock Bureau international des poids et mesures, F-92312 Sèvres Cedex,
+  France, 1968.
+\newblock URL
+  \url{https://www.bipm.org/documents/20126/17314988/CGPM13.pdf/ff522dd4-7c97-9b8d-127b-4fe77f3fe2bc?version=1.2&t=1587104721230&download=true#page=103}.
+
+\bibitem[Stoney(1883)]{Stoney1883}
+George~Johnstone Stoney.
+\newblock On the physical units of nature.
+\newblock \emph{The Scientific Proceedings of the Royal Dublin Society},
+  3:\penalty0 51--60, 1883.
+\newblock URL \url{https://books.google.com/books?id=R79WAAAAIAAJ&pg=PA51}.
+
+\bibitem[Tiesinga et~al.(2021)Tiesinga, Mohr, Newell, and
+  Taylor]{RevModPhys.93.025010}
+Eite Tiesinga, Peter~J. Mohr, David~B. Newell, and Barry~N. Taylor.
+\newblock Codata recommended values of the fundamental physical constants:
+  2018.
+\newblock \emph{Rev. Mod. Phys.}, 93:\penalty0 025010, Jun 2021.
+\newblock \doi{10.1103/RevModPhys.93.025010}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/RevModPhys.93.025010}.
+
+\bibitem[Times(1983)]{newspaper_1983}
+NY~Times.
+\newblock Science watch.
+\newblock \emph{NY Time}, page~6, Nov 1983.
+\newblock URL
+  \url{https://www.nytimes.com/1983/11/01/science/science-watch-011004.html}.
+
+\bibitem[Wood and Bettin(2019)]{https://doi.org/10.1002/andp.201800308}
+Barry Wood and Horst Bettin.
+\newblock The planck constant for the definition and realization of the
+  kilogram.
+\newblock \emph{Annalen der Physik}, 531\penalty0 (5):\penalty0 1800308, 2019.
+\newblock \doi{https://doi.org/10.1002/andp.201800308}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.201800308}.
+
+\end{thebibliography}
