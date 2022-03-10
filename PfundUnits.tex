@@ -18,7 +18,6 @@
 %\maketitle
 %\begin{multicols}{2}
 \maketitle
-
 %% Abstract section.
 %\begin{abstract}
 %testing
@@ -36,22 +35,25 @@ q_e = ~1 &~M_F^{0}L_F^{0}T_F^{0}Q_F^{1}\\
 N_A = ~1 &\text{**}\\
 \hbar = ~1 & ~M_F^{1}L_F^{2}T_F^{-1}Q_F^{0}\\
 c = ~1 & ~M_F^{0}L_F^{1}T_F^{-1}Q_F^{0}\\
-k_b = ~2\pi & ~M_F^{1}L_F^{1}T_F^{0}Q_F^{-1}\\
+{2~\pi~\hbar \over c ~ q_e}=k_b = ~2\pi & ~M_F^{1}L_F^{1}T_F^{0}Q_F^{-1}\\
 M_F~ c^2 =E_F = ~1 & ~M_F^{1}L_F^{2}T_F^{2}Q_F^{0}\\
 %constant = ~1 ~&M_F^{}L_F^{}T_F^{}Q_F^{}\\
 %constant = ~1 ~&M_F^{}L_F^{}T_F^{}Q_F^{}\\
 %G = ~{10^{-14} Q^4_F\over M_F T_F} ~&M_F^{3}L_F^{-1}T_F^{-2}Q_F^{}\\
 k_e = ~\alpha &~M_F^{1}L_F^{3}T_F^{-2}Q_F^{-2}\\
 \mu _0 = ~\alpha~4~\pi &~M_F^{1}L_F^{1}T_F^{0}Q_F^{-2}\\
-\epsilon _0 = ~{1 \over \alpha~4~\pi} & ~M_F^{-1}L_F^{-3}T_F^{2}Q_F^{2}% ={1 \over \mu _0 c^2}
+\epsilon _0 = ~{1 \over \alpha~4~\pi} & ~M_F^{-1}L_F^{-3}T_F^{2}Q_F^{2}\\% ={1 \over \mu _0 c^2}
+%$${\alpha ^2~m_e~c~\over~4~\pi ~\hbar~ L_F}={R_\infty\over L_F}={\alpha ^2~m_e~\over~4~\pi~ L_F}{L_F\over T_F}{T_F \over M_F~L_F^2}={\alpha ^2~m_e\over~4~\pi~M_F~L_F^2}$$
+R_\infty = {m_e\over M_F}{\alpha ^2\over~4~\pi}&~M_F^{0}L_F^{-1}T_F^{0}Q_F^{0}
 %constant = ~1 ~&M_F^{}L_F^{}T_F^{}Q_F^{}\\
 %constant = ~1 ~&M_F^{}L_F^{}T_F^{}Q_F^{}\\
 \end{align*}
 ** only way to correct $N_A$ being based on the Dalton = ${1 \over 12}$ the mass of Carbon isotope $C^{12}$ is to correct the periodic table to use the Pfund Mass = $M_F$ like the example to the right.
-$$G = ~{10^{-14} Q^4_F\over M_F T_F} ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{}$$
-The aritmetic is correct here but the dimensionality is wrong; for correct dimensionality $M_F$ needs to be multiplied times $\sqrt{T \over M~L^2}$(this also goes the reciprocal of $L_F$ and $T_F$).  Does gravity exist, or is it just the curvature of space time?
+$$\hbar~\alpha^2 = {10^{-14} Q^4_F\over M_F T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}$$
+Only unit with wrong dimensionality is $G$, but the arithmetic is correct; for correct dimensionality $M_F$ needs to be multiplied times $\sqrt{T \over M~L^2}$(this also goes the reciprocal of $L_F$ and $T_F$).  Does gravity exist, or is it just the curvature of space time?
 
-$0.00729735257$ - ``It has been a mystery ever since it was discovered more than fifty years ago, and all good theoretical physicists put this number up on their wall and worry about it.''\citep[p. 129]{feynman1985qed}. % $k_e ={h ~ \alpha \over c~ q_e^2}{ c^2 \over 2\pi }={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
+$0.00729735257$ - ``It has been a mystery ever since it was discovered more than fifty years ago, and all good theoretical physicists put this number up on their wall and worry about it.''\citep[p. 129]{feynman1985qed}. $\hspace{0.5em} k_e ={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
+% $k_e ={h ~ \alpha \over c~ q_e^2}{ c^2 \over 2\pi }={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
 % — Richard P. Feynman (1985). QED: The Strange Theory of Light and Matter. Princeton University Press. p. 129. ISBN 978-0-691-08388-9.
 %\subsection{Vacuum permittivity \& permeability}
 %$$2~\pi ~10^{−7} =  {h ~ \alpha \over c ~ q_e^2} {Q^2 \over M ~ L} = {Q^2 \over M ~ L}  {\mu _{0} \over 2} \qquad {\mu _{0} \over 2}{c ~ q_e^2 \over h} = \alpha$$
@@ -65,7 +67,6 @@ $$\psDefBoxNodes{n1}{2~\pi ~10^{−7}} =  {\psDefBoxNodes{n2}{\mu _{0}} \over 2}
 $$ $$ %{\mu _{0} ~c ~ q_e^2 \over 2 ~ h} 
 {{\mu _{0} }\over 2}{c ~ q_e^2 \over h} 
 = {2 ~\pi~10^{−7} ~299792458 ~ {(1.602176634 × 10^{-19})}^2   \over 6.62607015 × 10^{-34}} = \alpha $$
-$${h\over c ~ q_e}=k_b; \qquad \hspace{0.5em} k_e ={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$$
 
 \columnbreak
 \section {Speed of Sound = $c_0$}
@@ -77,8 +78,8 @@ Given $c_0 =\sqrt{γ_0  N_A k_B T \over M}$ and $39.947 g~mol^{-1} =$ molar mass
 
 \section{Time is On Our Side(\& Distance)}%Time is on my side - Sympathy for the Devil by the Rolling Stones
 With a Sympathetic Constant $=D_C$ to save our wallets, watches, measuring wheels, and road signage we can still use existing definitions of distance and time. 
-$$\text{1.3899982e+24} \approx {c\over T_{SI}L_F}=D_C$$
 \begin{align*}
+\text{1.3899982e+24} \approx {c\over T_{SI}L_F}&=D_C\\
 2.267061 \text{grams} &\approx~M_F~D_C\\
 q_e~\text{1.39e18} \approx 0.222702257 \text{Coulumbs} &\approx~Q_F~D_C ~\text{1e-6}
 \end{align*}
