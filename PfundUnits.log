@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2021.8.23)  16 MAR 2022 17:31
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2021.8.23)  17 MAR 2022 19:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1223,12 +1223,7 @@ LaTeX Font Warning: Font shape `TU/NotoSans-Light.otf(0)/bx/n' undefined
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Overfull \hbox (1.39575pt too wide) detected at line 68
-[][][][][][][] [] [][] [] [][][]  [][] [] [][][]  [][] [] [][][][]
- []
-
-
-Overfull \hbox (1.34576pt too wide) detected at line 70
+Overfull \hbox (1.34576pt too wide) detected at line 65
 [][] [] [] [] []
  []
 
@@ -1253,7 +1248,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 77.
 
 
-Overfull \hbox (13.01602pt too wide) detected at line 98
+Overfull \hbox (18.04659pt too wide) detected at line 99
 []
  []
 
@@ -1263,7 +1258,7 @@ Overfull \hbox (13.01602pt too wide) detected at line 98
 File: UWsombrero.jpg Graphic file (type bmp)
 <UWsombrero.jpg>
 
-Underfull \hbox (badness 5302) in paragraph at lines 133--143
+Underfull \hbox (badness 5302) in paragraph at lines 126--136
 \TU/XITS(0)/m/n/10 Where $[] [] [][]$ is the Rydberg constant,
  []
 
@@ -1307,33 +1302,30 @@ Underfull \hbox (badness 5064) in paragraph at lines 46--52
  []
 
 )
-Overfull \vbox (9.12517pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (4.73076pt too high) has occurred while \output is active []
+Overfull \vbox (4.6351pt too high) has occurred while \output is active []
 
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./PfundUnits.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `PfundUnits.out' has not changed.
 (rerunfilecheck)             Checksum: 116EB805415E7D92C9D645FC04BBCA1F.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
  33937 strings out of 494857
  616451 string characters out of 6175999
- 901490 words of memory out of 5000000
+ 889071 words of memory out of 5000000
  37532 multiletter control sequences out of 15000+600000
  540684 words of font info for 101 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 50i,20n,109p,862b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,20n,109p,798b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on PfundUnits.pdf (2 pages).
