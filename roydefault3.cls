@@ -50,7 +50,7 @@
 \usepackage{xcolor}
 \usepackage{titlesec}
 % \defaultfontfeatures{Ligatures=TeX}
-\setsansfont{NotoSans-Light.otf} % Set sans serif font
+\setsansfont{NotoSans-Light.ttf} % Set sans serif font
 % \setsansfont{DejaVu Sans, ExtraLight} % Set sans serif font
 % \setsansfont{DejaVu Sans ExtraLight}
 % [    Extension = .ttf,

@@ -7,7 +7,7 @@
 \usepackage{graphicx}
 %\usepackage{hyperref}
 \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}%\usepackage{textcomp}
-\title{1.39e+24 and The Pfund Mass $M_F  = \sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c~ \hbar^2 ~\alpha^2 ~T\over G~M~L^2}$ }
+\title{${2.267061 \text{grams} \over \text{1.39e+24}} \approx \sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c~ \hbar^2 ~\alpha^2 ~T\over G~M~L^2}=M_F$ }
 \author{\copyright Roy Pfund\thanks{e-mail: r0ypfund@gm41l.c0m} ~(CC BY-NC-SA 4.0) 2022\\
 \url{https://creativecommons.org/licenses/by-nc-sa/4.0/}}
 %\date{} % Activate to display a given date or no date (if empty), otherwise the current date is printed
@@ -24,15 +24,57 @@
 %-------------Abstract--------------
 %\begin{multicols}{2}
 \begin{multicols}{2}
-I could go on about how some CFD software uses planck units to reduce computation by reducing the billions of multiplications times the boltzman constant; but we need to reduce the number constants people have to know down to the 1 we don't (besides masses of subatomic particles).
+\noindent\section {Dimensionality}Stoney-Mass $M_{{\text{S}}} = \sqrt{\hbar ~ \alpha ~c \over G}$ dimensions are correct but $M_F = M_S \sqrt{\hbar \alpha}$ gives correct arithmetic for all the equations below to work but to correct dimensions, that's where the $M^{-1/2}L^{-2/2}T^{1/2}={1\over \sqrt{M^{1}L^{2}\over T}}$ comes from.
+%$$\hbar~\alpha^2 = {10^{-14} Q^4_F\over M_F T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}$$
+$$\alpha^2\hbar= \alpha^2 {M_F^{}L_F^{2} \over T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}$$
+but it comes back in the solution for $G$. However $G$ is wrong to begin with, because with Relativity it doesn't really exist, as it is the curvature of space time. Might help us understand $\alpha$?
+$$ %{\mu _{0} ~c ~ q_e^2 \over 2 ~ h} 
+{{\mu _{0} }\over 2}{c ~ q_e^2 \over 2~\pi ~\hbar} 
+= {2 ~\pi~10^{−7} ~299792458 ~ {(1.602176634 × 10^{-19})}^2   \over 6.62607015 × 10^{-34}} = \alpha $$$${\psDefBoxNodes{n2}{\mu _{0}} \over 2} ={\psDefBoxNodes{n4}{h ~ \alpha} \over c ~ q_e^2}; \hspace{0.5em} {\psDefBoxNodes{n5}{h ~ \alpha} \over c~ q_e^2}{ c^2 \over 2\pi }=k_e;\hspace{0.5em} \epsilon _0 ={1 \over \mu _0 c^2}%\qquad {\psDefBoxNodes{n3}{\mu _{0} }\over 2}{c ~ q_e^2 \over h} = \alpha
+\psset{nodesep=3pt,arcangle=35}
+\ncarc{<->}{n2:tC}{n4:tC}
+\ncarc{<->}{n4:tC}{n5:tC}
+%\ncarc{<->}{n2:tC}{n3:tC}
+$$
+$= 0.00729735257$ ``It has been a mystery ever since it was discovered more than fifty years ago, and all good theoretical physicists put this number up on their wall and worry about it.''\citep[p. 129]{feynman1985qed}. \textbf{Let's put it everywhere.} %$\hspace{2.5em} k_e ={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
+% $k_e ={h ~ \alpha \over c~ q_e^2}{ c^2 \over 2\pi }={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
+% — Richard P. Feynman (1985). QED: The Strange Theory of Light and Matter. Princeton University Press. p. 129. ISBN 978-0-691-08388-9.
+%\subsection{Vacuum permittivity \& permeability}
+%$$2~\pi ~10^{−7} =  {h ~ \alpha \over c ~ q_e^2} {Q^2 \over M ~ L} = {Q^2 \over M ~ L}  {\mu _{0} \over 2} \qquad {\mu _{0} \over 2}{c ~ q_e^2 \over h} = \alpha$$
+%\columnbreak
+$$\sqrt{{T_F \over M_F^{}L_F^{2} } {G \over ~M_F^{3}L_F^{-1}T_F^{-2}}}= \alpha$$
+\section {Speed of Sound = $c_0$}
+Given $c_0 =\sqrt{γ_0  N_A k_B T \over M}$ and $39.947 g~mol^{-1} =$ molar mass of the argon gas from the experiment measuring $c_0$ in a purifed isotope of argon gas at the Triple-Point of water = 273.16K \citep{Podesta_2013} Where $U_F = {E_F \over k_b}$, $T = {Kelvin\over U_F}U_F$, and $γ_0 = 5/3$ for monotonic gases. Let's see how that matches up with the $c_0^2 = 94756.245 m^2 s^-2$ from the experiment in 2013.
+\begin{align*}
+&c_0 =\sqrt{{5\over 3}  ~1 ~ k_B  ~{273.16 Kelvin\over U_F} ~U_F \over 40.671M_F}=307.701 m s^{-1}\approx \sqrt{c_0^2}\\
+&\text{**adjusted argon gas molar mass}= 40.671M_F= {39.947 \over M_F ~ N_A }
+\end{align*}
+
+\section{Time is On Our Side(\& Distance)}%Time is on my side - Sympathy for the Devil by the Rolling Stones
+With a Sympathetic Constant $=D_C=$ light-second / $L_F$ to save our wallets, watches, measuring wheels, and road signage we can still use existing definitions of distance and time. 
+\begin{align*}
+%\text{1.3899982e+24} \approx {c ~ T_{SI}\over L_F}&=D_C\\
+{1.3899982e+24  \approx {c ~ T_{SI}\over L_F} =D_C \over1.39e+24}&=0.999998675
+\end{align*}
+Perhaps one day for the sake of simplicity, Bureau international des poids et mesures might redefine the second and meter such the $D_C$ is exactly 1.39e+24 rather than approx. 5 almost 6 nines.
+\section{Conclusion}
+I could go on about how some CFD software uses planck units to reduce computation by reducing the billions of multiplications of $k_b$; we should care about people as much as machines and reduce the constants people have to know.~% (besides masses of subatomic particles).
+Remember all wallets, watches, measuring wheels, and road signage are already calibrated to $D_C$ and After the dust settles and all scales are calibrated to $D_C M_F$ and ammeter are calibrated to $D_C q_e$ , all that will have to be remembered besides preserving dimensionality when doing calculations is the following:
 %If the pyramids were covered in sand  we wouldn't leave them that way,
 %Using ${q_e \over coulomb}{kg\cdot m^2 \over s^2}=eV=1.602176634×10^{-19} J =$ the ElectronVolt; units of $\text{Mass}={eV \over c^2}$, $\text{Length}={\hbar c \over eV}$, or $\text{Time}={\hbar \over eV}$ can be constructucted.  Maybe we can do better:
-$$
-%\text{Pfund Mass} = M_F^{1}\qquad
- {\hbar \over c M_F} = L_F = {\hbar ~ c \over E_F};\qquad
-{\hbar \over c^2 M_F} = T_F = {\hbar \over E_F};\qquad
-q_e = Q_F
-$$
+%$$
+%%\text{Pfund Mass} = M_F^{1}\qquad
+% {\hbar \over c M_F} = L_F = {\hbar ~ c \over E_F};\qquad
+%{\hbar \over c^2 M_F} = T_F = {\hbar \over E_F};\qquad
+%q_e = Q_F
+%$$
+\begin{align*}
+%\text{Pfund Mass}~{c ~ T_{SI}\over L_F} &=\vcenter{\hbox{\includegraphics[width=1.6em]{P.ps}}}=~M_F~D_C &\approx 2.267061 \text{grams}
+%\sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c~ \hbar^2 ~\alpha^2 ~T\over G~M~L^2}=M_F&\approx {2.267061 \text{grams} \over \text{1.39e+24}}\\
+%{\hbar \over c^2 M_F} = T_F &\approx ~{1 \text{Second}\over \text{1.39e+24}} \\
+{\hbar \over c^2 M_F} = T_F \approx ~{1 \text{Second}\over \text{1.39e+24}};\quad Q_F &\approx~{222702.257\text{Coulumbs}\over \text{1.39e+24}}\\
+{\hbar \over c M_F} = L_F  &\approx ~{299792458 \text{Meters}\over \text{1.39e+24}}
+\end{align*}
 \begin{multicols}{2}[\setlength{\columnseprule}{0pt}]\noindent\begin{align*}
 k_e = ~\alpha &~M_F^{1}L_F^{3}T_F^{-2}Q_F^{-2}\\
 \mu _0 = ~\alpha~4~\pi &~M_F^{1}L_F^{1}Q_F^{-2}\\
@@ -55,48 +97,14 @@ M_F~ c^2 =E_F = ~1 & ~M_F^{1}L_F^{2}T_F^{2}\\
 %constant = ~1 ~&M_F^{}L_F^{}T_F^{}Q_F^{}\\
 %G = ~{10^{-14} Q^4_F\over M_F T_F} ~&M_F^{3}L_F^{-1}T_F^{-2}Q_F^{}\\
 \end{align*}\noindent\end{multicols}\noindent
-** only way to correct $N_A$ being based on the Dalton = ${1 \over 12}$ the mass of Carbon isotope $C^{12}$ is to correct the periodic table to use the Pfund Mass = $M_F$ like the example to the right.
-\noindent\section {Dimensionality}Stoney-Mass $M_{{\text{S}}} = \sqrt{\hbar ~ \alpha ~c \over G}$ dimensions are correct but $M_F = M_S \sqrt{\hbar \alpha}$ gives correct arithmetic for all the equations above to work but to correct dimensions, that's where the $M^{-1/2}L^{-2/2}T^{1/2}={1\over \sqrt{M^{1}L^{2}\over T}}$ comes from.
-%$$\hbar~\alpha^2 = {10^{-14} Q^4_F\over M_F T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}$$
-$$\alpha^2\hbar= \alpha^2 {M_F^{}L_F^{2} \over T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}$$
-but it comes back in the solution for $G$. However $G$ is wrong to begin with, because with Relativity it doesn't really exist, as it is the curvature of space time. Might help us understand $\alpha$?
-$$ %{\mu _{0} ~c ~ q_e^2 \over 2 ~ h} 
-{{\mu _{0} }\over 2}{c ~ q_e^2 \over 2~\pi ~\hbar} 
-= {2 ~\pi~10^{−7} ~299792458 ~ {(1.602176634 × 10^{-19})}^2   \over 6.62607015 × 10^{-34}} = \alpha $$$${\psDefBoxNodes{n2}{\mu _{0}} \over 2} ={\psDefBoxNodes{n4}{h ~ \alpha} \over c ~ q_e^2}; \hspace{0.5em} {\psDefBoxNodes{n5}{h ~ \alpha} \over c~ q_e^2}{ c^2 \over 2\pi }=k_e;\hspace{0.5em} \epsilon _0 ={1 \over \mu _0 c^2}%\qquad {\psDefBoxNodes{n3}{\mu _{0} }\over 2}{c ~ q_e^2 \over h} = \alpha
-\psset{nodesep=3pt,arcangle=35}
-\ncarc{<->}{n2:tC}{n4:tC}
-\ncarc{<->}{n4:tC}{n5:tC}
-%\ncarc{<->}{n2:tC}{n3:tC}
-$$$$\sqrt{{T_F \over M_F^{}L_F^{2} } {G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}}= \alpha$$
-$= 0.00729735257$ ``It has been a mystery ever since it was discovered more than fifty years ago, and all good theoretical physicists put this number up on their wall and worry about it.''\citep[p. 129]{feynman1985qed}. \textbf{Let's put it everywhere.} %$\hspace{2.5em} k_e ={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
-% $k_e ={h ~ \alpha \over c~ q_e^2}{ c^2 \over 2\pi }={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
-% — Richard P. Feynman (1985). QED: The Strange Theory of Light and Matter. Princeton University Press. p. 129. ISBN 978-0-691-08388-9.
-%\subsection{Vacuum permittivity \& permeability}
-%$$2~\pi ~10^{−7} =  {h ~ \alpha \over c ~ q_e^2} {Q^2 \over M ~ L} = {Q^2 \over M ~ L}  {\mu _{0} \over 2} \qquad {\mu _{0} \over 2}{c ~ q_e^2 \over h} = \alpha$$
-\columnbreak
-\section {Speed of Sound = $c_0$}
-Given $c_0 =\sqrt{γ_0  N_A k_B T \over M}$ and $39.947 g~mol^{-1} =$ molar mass of the argon gas from the experiment measuring $c_0$ in a purifed isotope of argon gas at the Triple-Point of water = 273.16K \citep{Podesta_2013} Where $U_F = {E_F \over k_b}$, $T = {Kelvin\over U_F}U_F$, and $γ_0 = 5/3$ for monotonic gases. Let's see how that matches up with the $c_0^2 = 94756.245 m^2 s^-2$ from the experiment in 2013.
-\begin{align*}
-&c_0 =\sqrt{{5\over 3}  ~1 ~ k_B  ~{273.16 Kelvin\over U_F} ~U_F \over 40.671M_F}=307.701 m s^{-1}\approx \sqrt{c_0^2}\\
-&\text{**adjusted argon gas molar mass}= 40.671M_F= {39.947 \over M_F ~ N_A }
-\end{align*}
-
-\section{Time is On Our Side(\& Distance)}%Time is on my side - Sympathy for the Devil by the Rolling Stones
-With a Sympathetic Constant $=D_C=$ light-second / $L_F$ to save our wallets, watches, measuring wheels, and road signage we can still use existing definitions of distance and time. 
-\begin{align*}
-%\text{1.3899982e+24} \approx {c ~ T_{SI}\over L_F}&=D_C\\
-{1.3899982e+24  \approx {c ~ T_{SI}\over L_F} =D_C \over1.39e+24}&=0.999998675
-\end{align*}
-Perhaps one day for the sake of simplicity, Bureau international des poids et mesures might redefine the second and meter such the $D_C$ is exactly 1.39e+24 rather than approx. 5 almost 6 nines.
-\section{Conclusion}
-Remember all wallets, watches, measuring wheels, and road signage are already calibrated to $D_C$ and After the dust settles and all scales and ammeter are calibrated, all that will have to be remembered besides preserving dimensionality when doing calculations is the following:
-\begin{align*}
-{\hbar \over c^2 M_F}~{c ~ T_{SI}\over L_F} &=~T_F~D_C &= ~1 \text{Second} \\
-{\hbar \over c M_F}~{{c ~ T_{SI}\over L_F}\over 299792458} &=~L_F~{D_C\over 299792458}  &= ~1 \text{Meter}\\
-{c ~ T_{SI}\over L_F}~q_e&= ~Q_F~D_C &\approx~222702.257\text{Coulumbs} \\
-%\text{Pfund Mass}~{c ~ T_{SI}\over L_F} &=\vcenter{\hbox{\includegraphics[width=1.6em]{P.ps}}}=~M_F~D_C &\approx 2.267061 \text{grams}
-\text{Pfund Mass}~{c ~ T_{SI}\over L_F} &=~M_F~D_C &\approx 2.267061 \text{grams}
-\end{align*}
+** only way to correct $N_A$ being based on the Dalton = ${1 \over 12}$ the mass of Carbon isotope $C^{12}$ is to correct the periodic table to use the Pfund Mass = $M_F$ like the sound-speed example.
+%\begin{align*}
+%{\hbar \over c^2 M_F}~{c ~ T_{SI}\over L_F} &=~T_F~D_C &= ~1 \text{Second} \\
+%{\hbar \over c M_F}~{{c ~ T_{SI}\over L_F}\over 299792458} &=~L_F~{D_C\over 299792458}  &= ~1 \text{Meter}\\
+%{c ~ T_{SI}\over L_F}~q_e&= ~Q_F~D_C &\approx~222702.257\text{Coulumbs} \\
+%%\text{Pfund Mass}~{c ~ T_{SI}\over L_F} &=\vcenter{\hbox{\includegraphics[width=1.6em]{P.ps}}}=~M_F~D_C &\approx 2.267061 \text{grams}
+%\text{Pfund Mass}~{c ~ T_{SI}\over L_F} &=~M_F~D_C &\approx 2.267061 \text{grams}
+%\end{align*}
 \pagebreak
 \end{multicols}
 \begin{figure}[h]
@@ -123,7 +131,7 @@ to finish the definition of $c$, An international agreement in Paris on Oct. 20 
 
 \citep{RevModPhys.93.025010} gives us $q_e$, and $G$. Just don't forget Milikan's Oil Drop or the Cavendish Mitchell Device. 
 \subsection{How the Avogadro constant was measured for the last time}
-$N_A$ and $h$ were measured using a incredibly round \& pure ball of $Si^{28}$ and a Kibble balance and the equations basically verbatim from \citep{Horst1} and \citep{https://doi.org/10.1002/andp.201800308}
+$N_A$ and $h$ were measured using a incredibly round \& pure ball of $Si^{28}$ and a Kibble balance and the equations basically verbatim from \citep{Horst1}% and \citep{https://doi.org/10.1002/andp.201800308}
 Where
 ${\alpha ^2~m_e~c~/~2~h} = R_\infty$ is the Rydberg constant,
 %$\alpha$ is the Fine Structure Constant,
@@ -160,6 +168,5 @@ $$h={c~ \alpha ^2 \over 2 R_\infty}{m~a^3 \over 8~V}{A_r (e) \over \sum_{i=28}^{
 \renewcommand{\thefigure}{S\arabic{figure}}%
 \subsection*{Supplementary Materials}
 Only reason I found this was for some reason or another I had just looked at $\sqrt{\hbar \alpha}$, and I had Avogadro constant for Stoney-Mass $M_{{\text{S}}} = \sqrt{\hbar ~ \alpha ~c \over G}$ mass popping up in a script I had running with some notes to see how the Planck-Units, and the Stoney-Units\citep{Stoney1883}, baked out the need for certain constants. But when I had left the speed of sound calc to see how the planck units canceled out the Boltzman constant, and the Avogadro constant for $M_S$ also popped up, not exact match but so close I had to do more tests.%The character D in $D_C$ may have something to do with a song by the Rolling Stones. %https://youtu.be/f47TZePukuQ
-
 \end{multicols}
 \end{document}
