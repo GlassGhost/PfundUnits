@@ -7,7 +7,7 @@
 \usepackage{graphicx}
 %\usepackage{hyperref}
 \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}%\usepackage{textcomp}
-\title{${2.267061 \text{grams} \over \text{1.39e+24}} \approx \sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c~ \hbar^2 ~\alpha^2 ~T\over G~M~L^2}=M_F$ }
+\title{${2.267061 \text{grams} \over \text{1.39}\times 10^{24}} \approx \sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c~ \hbar^2 ~\alpha^2 ~T\over G~M~L^2}=M_F$ }
 \author{\copyright Roy Pfund\thanks{e-mail: r0ypfund@gm41l.c0m} ~(CC BY-NC-SA 4.0) 2022\\
 \url{https://creativecommons.org/licenses/by-nc-sa/4.0/}}
 %\date{} % Activate to display a given date or no date (if empty), otherwise the current date is printed
@@ -24,9 +24,10 @@
 %-------------Abstract--------------
 %\begin{multicols}{2}
 \begin{multicols}{2}
-\noindent\section {Dimensionality}Stoney-Mass $M_{{\text{S}}} = \sqrt{\hbar ~ \alpha ~c \over G}$ dimensions are correct but $M_F = M_S \sqrt{\hbar \alpha}$ gives correct arithmetic for all the equations below to work but to correct dimensions, that's where the $M^{-1/2}L^{-2/2}T^{1/2}={1\over \sqrt{M^{1}L^{2}\over T}}$ comes from.
+\noindent\section {Dimensionality}Stoney-Mass $M_{{\text{S}}} = \sqrt{\hbar ~ \alpha ~c \over G}$ units are correct, but with $M_F = M_S \sqrt{\hbar \alpha}$ alone gives correct arithmetic;
+ for all the equations below to not only work arithmeitc wise, $\sqrt{T \over M^{1}L^{2}}$ is needed cancel any wrong units put into $M_F$ from $\hbar$. M, L, and T with no subscripts are meant to mean from whichever unit system you are converting from, in this case; SI units 1kg, 1m, and 1s respectively.
 %$$\hbar~\alpha^2 = {10^{-14} Q^4_F\over M_F T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}$$
-$$\alpha^2\hbar= \alpha^2 {M_F^{}L_F^{2} \over T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}$$
+$$\alpha^2\hbar= \alpha^2 {M_F^{}L_F^{2} \over T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}}$$
 but it comes back in the solution for $G$. However $G$ is wrong to begin with, because with Relativity it doesn't really exist, as it is the curvature of space time. Might help us understand $\alpha$?
 $$ %{\mu _{0} ~c ~ q_e^2 \over 2 ~ h} 
 {{\mu _{0} }\over 2}{c ~ q_e^2 \over 2~\pi ~\hbar} 
@@ -54,9 +55,9 @@ Given $c_0 =\sqrt{γ_0  N_A k_B T \over M}$ and $39.947 g~mol^{-1} =$ molar mass
 With a Sympathetic Constant $=D_C=$ light-second / $L_F$ to save our wallets, watches, measuring wheels, and road signage we can still use existing definitions of distance and time. 
 \begin{align*}
 %\text{1.3899982e+24} \approx {c ~ T_{SI}\over L_F}&=D_C\\
-{1.3899982e+24  \approx {c ~ T_{SI}\over L_F} =D_C \over1.39e+24}&=0.999998675
+{1.3899982\times 10^{24}  \approx {c ~ T_{SI}\over L_F} =D_C \over1.39\times 10^{24}}&=0.999998675
 \end{align*}
-Perhaps one day for the sake of simplicity, Bureau international des poids et mesures might redefine the second and meter such the $D_C$ is exactly 1.39e+24 rather than approx. 5 almost 6 nines.
+Perhaps one day for the sake of simplicity, Bureau international des poids et mesures might redefine the second and meter such the $D_C$ is exactly $1.39\times 10^{24}$ rather than approx. 5 almost 6 nines.
 \section{Conclusion}
 I could go on about how some CFD software uses planck units to reduce computation by reducing the billions of multiplications of $k_b$; we should care about people as much as machines and reduce the constants people have to know.~% (besides masses of subatomic particles).
 Remember all wallets, watches, measuring wheels, and road signage are already calibrated to $D_C$ and After the dust settles and all scales are calibrated to $D_C M_F$ and ammeter are calibrated to $D_C q_e$ , all that will have to be remembered besides preserving dimensionality when doing calculations is the following:
@@ -72,8 +73,8 @@ Remember all wallets, watches, measuring wheels, and road signage are already ca
 %\text{Pfund Mass}~{c ~ T_{SI}\over L_F} &=\vcenter{\hbox{\includegraphics[width=1.6em]{P.ps}}}=~M_F~D_C &\approx 2.267061 \text{grams}
 %\sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c~ \hbar^2 ~\alpha^2 ~T\over G~M~L^2}=M_F&\approx {2.267061 \text{grams} \over \text{1.39e+24}}\\
 %{\hbar \over c^2 M_F} = T_F &\approx ~{1 \text{Second}\over \text{1.39e+24}} \\
-{\hbar \over c^2 M_F} = T_F \approx ~{1 \text{Second}\over \text{1.39e+24}};\quad Q_F &\approx~{222702.257\text{Coulumbs}\over \text{1.39e+24}}\\
-{\hbar \over c M_F} = L_F  &\approx ~{299792458 \text{Meters}\over \text{1.39e+24}}
+{\hbar \over c^2 M_F} = T_F \approx ~{1 \text{Second}\over \text{1.39}\times 10^{24}};\quad Q_F &\approx~{222702.257\text{Coulumbs}\over \text{1.39}\times 10^{24}}\\
+{\hbar \over c M_F} = L_F  &\approx ~{299792458 \text{Meters}\over \text{1.39}\times 10^{24}}
 \end{align*}
 \begin{multicols}{2}[\setlength{\columnseprule}{0pt}]\noindent\begin{align*}
 k_e = ~\alpha &~M_F^{1}L_F^{3}T_F^{-2}Q_F^{-2}\\
