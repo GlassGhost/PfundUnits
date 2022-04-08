@@ -66,6 +66,8 @@ def sound(M, L, T, Q, convolved=1):
     print(str(L)+" Meters per L\n")
     print(str(T)+" Seconds per T\n")
     print(str(Q)+" Q per ?\n")
+    MF=((unitc * (unitdlesA**2) * (unitHbar**2) * T) / (unitG * M * (L**2)))**0.5
+    print(str(MF)+" M ?\n")
     print(str(((unitG / (unitc**2))*(1/(unitHbar*(unitdlesA**2)))))+" L ?\n")
     print(str(((unitG / (unitc**3))*(1/(unitHbar*(unitdlesA**2)))))+" T ?\n")
 
