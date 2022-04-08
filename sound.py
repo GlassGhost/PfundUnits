@@ -66,6 +66,8 @@ def sound(M, L, T, Q, convolved=1):
     print(str(L)+" Meters per L\n")
     print(str(T)+" Seconds per T\n")
     print(str(Q)+" Q per ?\n")
+    print(str(((unitG / (unitc**2))*(1/(unitHbar*(unitdlesA**2)))))+" L ?\n")
+    print(str(((unitG / (unitc**3))*(1/(unitHbar*(unitdlesA**2)))))+" T ?\n")
 
 sound(0.002267060997082957, 1, 1, 222702.25716748508)
 electronmass = (4.018146716484959*(10**-28)) #print(str((9.1093837015*(10**-31)) / 0.002267060997082957))
