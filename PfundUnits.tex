@@ -7,11 +7,13 @@
 \usepackage{graphicx}
 %\usepackage{hyperref}
 \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}%\usepackage{textcomp}
-\title{${2.267061 \text{grams} \over \text{1.39}\times 10^{24}} \approx {{c ~ T_{SI}\over L_F}M_F \over \text{1.39}\times 10^{24}}=\sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c ~\alpha^2 ~ \hbar^2 ~T\over G~M~L^2}=M_F$ }
-\author{\copyright Roy Pfund\thanks{e-mail: r0ypfund@gm41l.c0m} ~(CC BY-NC-SA 4.0) 2022\\
-\url{https://creativecommons.org/licenses/by-nc-sa/4.0/}}
+%\title{${2.267061 \text{grams} \over \text{1.39}\times 10^{24}} \approx {{c ~ T_{SI}\over L_F}M_F \over \text{1.39}\times 10^{24}} \approx \sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c ~\alpha^2 ~ \hbar^2 ~T\over G~M~L^2}=M_F$ }
+\title{The Pfund Mass $M_F=\sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c ~\alpha^2 ~ \hbar^2 ~T\over G~M~L^2}$}
+%\notitle{}
+\author{\copyright Roy Pfund\thanks{e-mail: r0ypfund@gm41l.c0m} ~(CC BY-NC-ND 4.0) 2022\\
+\url{https://creativecommons.org/licenses/by-nc-nd/4.0/}}
 %\date{} % Activate to display a given date or no date (if empty), otherwise the current date is printed
-\date{April 9, 2022}
+\date{$M_F$ equation finished March 17, 2022 Paper updated January 16, 2026}
 \begin{document}
 \bibliographystyle{plainnat}
 %\maketitle
@@ -30,20 +32,14 @@
 %\ncarc{<->}{n2:tC}{n4:tC}
 %\ncarc{<->}{n4:tC}{n5:tC}
 %$$
-$${{h ~ \alpha} \over c~ q_e^2}{ 2 c^2 \over 4\pi }={ \mu _{0}~c^2 \over 4\pi }={1\over 4 \pi \epsilon _0}=k_e;\hspace{0.5em}{{\mu _{0} }\over 2}{c ~ q_e^2 \over 2~\pi ~\hbar}=\alpha $$
-%$$ %{\mu _{0} ~c ~ q_e^2 \over 2 ~ h} 
-%{{\mu _{0} }\over 2}{c ~ q_e^2 \over 2~\pi ~\hbar} 
-%= {2 ~\pi~10^{−7} ~299792458 ~ {(1.602176634 × 10^{-19})}^2   \over 6.62607015 × 10^{-34}} = \alpha $$
-$= 0.00729735257$ ``It has been a mystery ever since it was discovered more than fifty years ago, and all good theoretical physicists put this number up on their wall and worry about it.''\citep[p. 129]{feynman1985qed}. %$\hspace{2.5em} k_e ={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
-Some CFD software uses planck units to reduce computation by reducing the billions of multiplications of $k_b$; we should care about people as much as machines.
-% and reduce the constants people have to know.
-% $k_e ={h ~ \alpha \over c~ q_e^2}{ c^2 \over 2\pi }={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
-% — Richard P. Feynman (1985). QED: The Strange Theory of Light and Matter. Princeton University Press. p. 129. ISBN 978-0-691-08388-9.
-%\subsection{Vacuum permittivity \& permeability}
-%$$2~\pi ~10^{−7} =  {h ~ \alpha \over c ~ q_e^2} {Q^2 \over M ~ L} = {Q^2 \over M ~ L}  {\mu _{0} \over 2} \qquad {\mu _{0} \over 2}{c ~ q_e^2 \over h} = \alpha$$
-%\columnbreak
-%$$\sqrt{{T_F \over M_F^{}L_F^{2} } {G \over ~M_F^{3}L_F^{-1}T_F^{-2}}}= \alpha$$
-Given how the constants above are involved with $\alpha$, it is possible to reduce the number of constants people need to know drastically ~$M_F^{W}L_F^{X}T_F^{Y}Q_F^{Z}=$% (besides masses of subatomic particles).
+
+%$$\sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c ~\alpha^2 ~ \hbar^2 ~T\over G~M~L^2}=M_F$$
+%$$\sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c ~\alpha^2 ~ \hbar^2 ~T\over G~M~L^2}=M_F$$
+%$${2.267061 \text{grams} \over \text{1.39}\times 10^{24}} \approx {{c ~ T_{SI}\over L_F}M_F \over \text{1.39}\times 10^{24}} \approx \sqrt{k_e^2~q_e^4~T \over c~G~M~L^2}= \sqrt{c ~\alpha^2 ~ \hbar^2 ~T\over G~M~L^2}=M_F$$
+Here we treat the Dalton not as a value to be "found" through physical 
+artifacts, but as an algebraic identity emerging from constants of the 
+universe. We transition from measuring string to using math to solve 
+for the constant. It is possible to further reduce the number of constants in use ~$M_F^{W}L_F^{X}T_F^{Y}Q_F^{Z}=$% (besides masses of subatomic particles).
 %Using ${q_e \over coulomb}{kg\cdot m^2 \over s^2}=eV=1.602176634×10^{-19} J =$ the ElectronVolt; units of $\text{Mass}={eV \over c^2}$, $\text{Length}={\hbar c \over eV}$, or $\text{Time}={\hbar \over eV}$ can be constructucted.  Maybe we can do better:
 %$$
 %%\text{Pfund Mass} = M_F^{1}\qquad
@@ -74,6 +70,21 @@ M_F~ c^2 =E_F = ~1 & ~M_F^{1}L_F^{2}T_F^{-2}\\
 %constant = ~1 ~&M_F^{}L_F^{}T_F^{}Q_F^{}\\
 %G = ~{10^{-14} Q^4_F\over M_F T_F} ~&M_F^{3}L_F^{-1}T_F^{-2}Q_F^{}\\
 \end{align*}\noindent\end{multicols}\noindent
+The SI definition of ${M~8~V \over m~a^3} = N_A$ (Avogadro constant) and $\frac{2 R_\infty h}{c \alpha^2 A_r(e)}=m_u$ (the Dalton), 
+remains experimental, relying on physical measurements to approximate 
+a fundamental ratio rather than deriving it as an algebraic identity. 
+Scientists must count atoms by measuring the sphere's mass, volume, 
+and lattice parameter. Determining $N_A$ via silicon sphere measurement resembles measuring 
+string wrapped around a circle to calculate $\pi$.
+%$N_A = {M~8~V \over m~a^3}\quad; \qquad m_u = \frac{2 R_\infty h}{c \alpha^2 A_r(e)}$
+%Some CFD software uses planck units to reduce computation by reducing the billions of multiplications of $k_b$; we should care about people as much as machines.
+% and reduce the constants people have to know.
+% $k_e ={h ~ \alpha \over c~ q_e^2}{ c^2 \over 2\pi }={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
+% — Richard P. Feynman (1985). QED: The Strange Theory of Light and Matter. Princeton University Press. p. 129. ISBN 978-0-691-08388-9.
+%\subsection{Vacuum permittivity \& permeability}
+%$$2~\pi ~10^{−7} =  {h ~ \alpha \over c ~ q_e^2} {Q^2 \over M ~ L} = {Q^2 \over M ~ L}  {\mu _{0} \over 2} \qquad {\mu _{0} \over 2}{c ~ q_e^2 \over h} = \alpha$$
+%\columnbreak
+%$$\sqrt{{T_F \over M_F^{}L_F^{2} } {G \over ~M_F^{3}L_F^{-1}T_F^{-2}}}= \alpha$$
 %\begin{align*}
 %{\hbar \over c^2 M_F}~{c ~ T_{SI}\over L_F} &=~T_F~D_C &= ~1 \text{Second} \\
 %{\hbar \over c M_F}~{{c ~ T_{SI}\over L_F}\over 299792458} &=~L_F~{D_C\over 299792458}  &= ~1 \text{Meter}\\
@@ -84,26 +95,22 @@ M_F~ c^2 =E_F = ~1 & ~M_F^{1}L_F^{2}T_F^{-2}\\
 \noindent\section {Dimensionality}Stoney-Mass $M_{{\text{S}}} = \sqrt{\hbar ~ \alpha ~c \over G}$ units are correct, but with $M_F = M_S \sqrt{\hbar \alpha}$ alone gives correct arithmetic;
  for all the equations above to not only work arithmetic wise, $\sqrt{T \over M^{1}L^{2}}$ is needed to cancel any wrong units put into $M_F$ from $\hbar$. M, L, and T with no subscripts are meant to mean from whichever unit system you are converting from or currently using, in this case; SI units 1kg, 1m, and 1s respectively.
 %$$\hbar~\alpha^2 = {10^{-14} Q^4_F\over M_F T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}Q_F^{0}}$$
-$\sqrt{T \over M^{1}L^{2}}$ reappears in the solution for $G$. However $G$ is wrong to begin with, because with Relativity it doesn't really exist, as it is the curvature of space time.
+$\sqrt{T \over M^{1}L^{2}}$ reappears in the solution for $G$. However units for $G$ are wrong because it's not a force, it is the curvature of space time.
 $$\alpha^2\hbar= \alpha^2 {M_F^{}L_F^{2} \over T_F} ={G \over ~M_F^{3}L_F^{-1}T_F^{-2}}$$
 
-\section {Speed of Sound = $c_0$}
-Given $c_0 =\sqrt{γ_0  N_A k_B K \over MolarMass}$ and $39.947 g~mol^{-1} =$ molar mass of the argon gas from the experiment measuring $c_0$ in a purifed isotope of argon gas at the Triple-Point of water = 273.16K \citep{Podesta_2013} Where $U_F = {M~L^2 \over k_b~T^2}$, $K = {Kelvin\over U_F}U_F$, and $γ_0 = 5/3$ for monotonic gases. Let's see how this matches up with the $c_0^2 = 94756.245 m^2 s^{-2}$ from the experiment in 2013.\\e.g. on how to correct $N_A$ being based on the Dalton = ${1 \over 12}$ the mass of Carbon isotope $C^{12}$ over to $M_F$ 
-\begin{align*}
-&\text{**adjusted argon gas molar mass}= 40.671M_F= {39.947 kg \over M_F ~ N_A }\\
-&c_0 =\sqrt{{5\over 3}  ~N_A ~ k_B  ~{273.16 Kelvin\over U_F} ~U_F \over 40.671M_F}=307.701 m s^{-1}\approx \sqrt{c_0^2}
-\end{align*}
 \section{Time is On Our Side(\& Distance)}
-With a Sympathetic Constant $=D_C=$ light-second / $L_F$ to save our wallets, watches, measuring wheels, and road signage we can still use existing definitions of distance and time. 
-Perhaps one day for the sake of simplicity, Bureau international des poids et mesures might redefine the second and meter such that $D_C$ is exactly $1.39\times 10^{24}$ rather than approx. 5 almost 6 nines.
-$${1.3899982\times 10^{24}  \approx {c ~ T_{SI}\over L_F} =D_C \over1.39\times 10^{24}}=0.999998675$$
-\section{There and back again}
+$${c ~ T_{SI}\({G \over c^2 }M_F{M~L^2 \over \alpha^2 \hbar ~T }\)}^{-1}=D_C\qquad\quad{2.267061 \text{grams} \over D_C } \approx M_F$$
+%$${1.3899982\times 10^{24}  \approx {c ~ T_{SI}\over L_F} =D_C \over1.39\times 10^{24}}=0.999998675$$
+With a Sympathetic Constant $=D_C={c ~ T_{SI}\over L_F}=$ light-second / $L_F$ to move from the atomic scale to the macroscopic scale.
+%Perhaps one day for the sake of simplicity, Bureau international des poids et mesures might redefine the second and meter such that $D_C$ is exactly $1.39\times 10^{24}$ rather than approx. 5 almost 6 nines.
+%\section{There and back again}
 %${\({c{s\over m}}\)}^{}=299792458$\\
 %${D_C}^{-1}{\({c{s\over m}}\)}^{-1}$\\
 %4.4903002 e-6 $D_C q_e$ per 1 Coulombs\\ 441.09973 $D_C M_F$ per 1 Kg\\
 Calibrating scales to $D_C M_F\approx 2.267061 \text{grams} $ and ammeter to $D_C q_e\approx 222702.26 \text{ Coulombs}$ will result in~$M_F^{W}L_F^{X}T_F^{Y}Q_F^{Z}=$\\
 %Calibrating scales to $D_C M_F\approx {Kg \over 441.09973}$ and ammeter to $D_C q_e \approx {Coulomb \over 4.4903002e-06}$ will result in~$M_F^{W}L_F^{X}T_F^{Y}Q_F^{Z}=$\\
-${\(  {p~=~D_C M_F \over \text{1.39}\times 10^{24}}\)}^W {\({299792458 \text{Meters}\over \text{1.39}\times 10^{24}}\)}^X {\({1 \text{Second}\over \text{1.39}\times 10^{24}}\)}^Y {\({q~=~D_C q_e\over \text{1.39}\times 10^{24}}\)}^Z$
+${\(  {p~=~D_C M_F \over D_C }\)}^W {\({299792458 \text{Meters}\over D_C }\)}^X {\({1 \text{Second}\over D_C }\)}^Y {\({q~=~D_C q_e\over D_C }\)}^Z$
+$${{h ~ \alpha} \over c~ q_e^2}{ 2 c^2 \over 4\pi }={ \mu _{0}~c^2 \over 4\pi }={1\over 4 \pi \epsilon _0} = k_e = ~\alpha {\({c{s\over m}}\)}^{3} p^{1}m^{3}s^{-2}q^{-2}$$
 \begin{multicols}{2}[\setlength{\columnseprule}{0pt}]\noindent\begin{align*}
 \mu _0 &= ~\alpha~4~\pi{\({c{s\over m}}\)}p^{1}m^{1}q^{-2}\\
 \epsilon _0 &= ~{1 \over \alpha~4~\pi}{\({c{s\over m}}\)}^{-3} p^{-1}m^{-3}s^{2}q^{2}\\% ={1 \over \mu _0 c^2}
@@ -120,25 +127,43 @@ G &= {\hbar ~T \over M ~L^2}\alpha^2 {\({c{s\over m}}\)}^{3} p^{3}m^{-1}s^{-2}\\
 %q_e = ~1 &~Q_F\\
 %E_F = {\({c{s\over m}}\)}^{2} & ~p^{1}m^{2}s^{-2}\\%E_F = {D_C}^{-1}{\({c{s\over m}}\)}^{2} & ~p^{1}m^{2}s^{-2}\\
 k_b = ~2\pi {D_C}^{-1}{\({c{s\over m}}\)}& ~p^{1}m^{1}q^{-1}\\
-k_e = ~\alpha {\({c{s\over m}}\)}^{3}& p^{1}m^{3}s^{-2}q^{-2}\\
-\hbar = {D_C}^{-2}{\({c{s\over m}}\)}^{2} & ~p^{1}m^{2}s^{-1}\\
 c = {\({c{s\over m}}\)} & ~m^{1}s^{-1}\\
-N_A = D_C &\text{**}
+\hbar = {D_C}^{-2}{\({c{s\over m}}\)}^{2} & ~p^{1}m^{2}s^{-1}\\
+%k_e = ~\alpha {\({c{s\over m}}\)}^{3}& p^{1}m^{3}s^{-2}q^{-2}\\
+N_A = D_C\\
+\alpha={{\mu _{0} }\over 2}{c ~ q_e^2 \over 2~\pi ~\hbar}\\
 %constant = ~1 ~&p^{}m^{}s^{}q^{}\\
 %constant = ~1 ~&p^{}m^{}s^{}q^{}\\
 %G = ~{10^{-14} Q^4_F\over M_F T_F} ~&p^{3}m^{-1}s^{-2}q^{}\\
 \end{align*}\noindent\end{multicols}\noindent
-
+%{{h ~ \alpha} \over c~ q_e^2}{ 2 c^2 \over 4\pi }={ \mu _{0}~c^2 \over 4\pi }={1\over 4 \pi \epsilon _0} = k_e = ~\alpha {\({c{s\over m}}\)}^{3}& p^{1}m^{3}s^{-2}q^{-2}\\
+%k_e = ~\alpha {\({c{s\over m}}\)}^{3}& p^{1}m^{3}s^{-2}q^{-2}\\
+%$${{h ~ \alpha} \over c~ q_e^2}{ 2 c^2 \over 4\pi }={ \mu _{0}~c^2 \over 4\pi }={1\over 4 \pi \epsilon _0}=k_e= ~\alpha {\({c{s\over m}}\)}^{3}& p^{1}m^{3}s^{-2}q^{-2}$$
+%= ~\alpha {\({c{s\over m}}\)}^{3}& p^{1}m^{3}s^{-2}q^{-2}
+%$${{h ~ \alpha} \over c~ q_e^2}{ 2 c^2 \over 4\pi }={ \mu _{0}~c^2 \over 4\pi }={1\over 4 \pi \epsilon _0}=k_e;\hspace{0.5em}{{\mu _{0} }\over 2}{c ~ q_e^2 \over 2~\pi ~\hbar}=\alpha $$
+$= 0.00729735257$ ``It has been a mystery ever since it was discovered more than fifty years ago, and all good theoretical physicists put this number up on their wall and worry about it.''\citep[p. 129]{feynman1985qed}. 
+\section {Speed of Sound = $c_0$}
+Given $c_0 =\sqrt{γ_0  N_A k_B K \over MolarMass}$ and $39.947 g~mol^{-1} =$ molar mass of the argon gas from the experiment measuring $c_0$ in a purifed isotope of argon gas at the Triple-Point of water = 273.16K \citep{Podesta_2013} Where $U_F = {M~L^2 \over k_b~T^2}$, $K = {Kelvin\over U_F}U_F$, and $γ_0 = 5/3$ for monotonic gases. Let's see how this matches up with the $c_0^2 = 94756.245 m^2 s^{-2}$ from the experiment in 2013.\\e.g. on how to correct $N_A$ being based on the Dalton = ${1 \over 12}$ the mass of Carbon isotope $C^{12}$ over to $M_F$ 
+\begin{align*}
+&\text{**adjusted argon gas molar mass}= 40.671M_F= {39.947 kg \over M_F ~ N_A }\\
+&c_0 =\sqrt{{5\over 3}  ~N_A ~ k_B  ~{273.16 Kelvin\over U_F} ~U_F \over 40.671M_F}=307.701 m s^{-1}\approx \sqrt{c_0^2}
+\end{align*}
 \pagebreak
 \end{multicols}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\textwidth]{UWsombrero.jpg}
-%  \includegraphics[width=9em]{P.ps}
-  %\caption{The Sombrero Galaxy viewed by the Hubble Space Telescope. %(\url{https://some.site}
-  %}
-  %\Description{A woman and a girl in white dresses sit in an open car.}
-\end{figure}
+
+%$$ %{\mu _{0} ~c ~ q_e^2 \over 2 ~ h} 
+%{{\mu _{0} }\over 2}{c ~ q_e^2 \over 2~\pi ~\hbar} 
+%= {2 ~\pi~10^{−7} ~299792458 ~ {(1.602176634 × 10^{-19})}^2   \over 6.62607015 × 10^{-34}} = \alpha $$
+%$\hspace{2.5em} k_e ={10^{−7} ~c^2 }{T^2 \over L^2}{M~L^3 \over T^2~Q^2}$
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=\textwidth]{UWsombrero.jpg}
+% %  \includegraphics[width=9em]{P.ps}
+%   %\caption{The Sombrero Galaxy viewed by the Hubble Space Telescope. %(\url{https://some.site}
+%   %}
+%   %\Description{}
+% \end{figure}
+
 \begin{multicols}{2}
 \section{Constants}\begin{align*}%all these ducks in a row go quack
 %((299792458)^(−1)) *((6.67430 * (10^-11))^(0)) *((1.6021766 * 10^(-19))^(−1)) *((6.62607015*(10^-34))^(1)) *((1/(2pi))^(0))
@@ -165,7 +190,8 @@ $8$ is the number of atoms in an elementary cell of the lattice(cube with edge l
 $M$ Molar mass of silicon contained in sphere.
 $m$  mass of sphere.
 $$N= {8~V \over a^3} = \text{Number of atoms in silicon sphere}$$
-$$N_A = {M~8~V \over m~a^3}= \text{Avogadro constant}$$
+%$$N_A = {M~8~V \over m~a^3}= \text{Avogadro constant}$$
+$$N_A = {M~8~V \over m~a^3}\quad; \qquad m_u = \frac{2 R_\infty h}{c \alpha^2 A_r(e)}$$
 $$m(Si) = {m \over N} = {m~a^3 \over 8 V}= m(e){A_r (Si) \over A_r (e)}$$
 $$m(e)= {2~h~R_\infty \over c~\alpha ^2} = {2~\(2\pi~\hbar\) R_\infty \over c~\alpha ^2}$$
 $$h={c~ \alpha ^2 \over 2 R_\infty}{m~a^3 \over 8~V}{A_r (e) \over \sum_{i=28}^{30}x_i~A_r( ^i Si)}$$
